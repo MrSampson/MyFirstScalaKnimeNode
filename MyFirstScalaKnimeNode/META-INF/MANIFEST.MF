@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MyFirstScalaKnimeNode-Node extension for KNIME Workbench
+Bundle-SymbolicName: de.uni_konstanz.knime.scala.myfirst; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: myfirstscalaknimenode.jar
+Bundle-Activator: de.uni_konstanz.knime.scala.myfirst.MyFirstScalaKnimeNodeNodePlugin
+Bundle-Vendor: University of Konstanz
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base,
+ org.scala-lang.scala-library
+Bundle-ActivationPolicy: lazy
+Export-Package: de.uni_konstanz.knime.scala.myfirst
+
